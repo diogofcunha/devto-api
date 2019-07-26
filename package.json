@@ -1,6 +1,6 @@
 {
   "name": "devto-api",
-  "version": "0.0.0",
+  "version": "0.0.0-beta",
   "description": "A node wrapper around dev.to api",
   "main": "lib/index.js",
   "scripts": {
