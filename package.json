@@ -33,6 +33,7 @@
     "@commitlint/cli": "^8.1.0",
     "@threads/tsconfig": "^1.0.0",
     "@types/node": "^12.6.8",
+    "@types/node-fetch": "^2.5.0",
     "husky": "^3.0.1",
     "lint-staged": "^9.2.1",
     "prettier": "^1.18.2",
@@ -55,5 +56,8 @@
       "prettier --write",
       "git add"
     ]
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.0"
   }
 }
