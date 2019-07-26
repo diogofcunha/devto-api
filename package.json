@@ -13,6 +13,9 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon"
   },
+  "files": [
+    "lib/"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/diogofcunha/devto-api.git"
@@ -24,7 +27,8 @@
     "github",
     "community",
     "dev",
-    "eng"
+    "eng",
+    "https://dev.to/api"
   ],
   "author": "Diogo Cunha",
   "license": "MIT",
