@@ -5,6 +5,8 @@
   "main": "lib/index.js",
   "scripts": {
     "build": "tsc",
+    "prettier:write": "prettier --ignore-path .gitignore --write './**/*.{md,json,yaml,js,jsx,ts,tsx}'",
+    "prettier:check": "prettier --ignore-path .gitignore --list-different './**/*.{md,json,yaml,js,jsx,ts,tsx}'",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -29,6 +31,7 @@
   "devDependencies": {
     "@threads/tsconfig": "^1.0.0",
     "@types/node": "^12.6.8",
+    "prettier": "^1.18.2",
     "typescript": "^3.5.3"
   },
   "dependencies": {}
