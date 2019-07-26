@@ -4,6 +4,7 @@
   "description": "A node wrapper around dev.to api",
   "main": "lib/index.js",
   "scripts": {
+    "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -26,6 +27,9 @@
   },
   "homepage": "https://github.com/diogofcunha/devto-api#readme",
   "devDependencies": {
-    "@threads/tsconfig": "^1.0.0"
-  }
+    "@threads/tsconfig": "^1.0.0",
+    "@types/node": "^12.6.8",
+    "typescript": "^3.5.3"
+  },
+  "dependencies": {}
 }
